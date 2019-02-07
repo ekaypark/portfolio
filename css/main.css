@@ -1,0 +1,366 @@
+A/***** RESET *****/
+html, body, div, object, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, form, fieldset, input, textarea, select, label, legend, button, a, small, table, th, td {margin:0; padding:0; line-height:1em;}
+article, aside, details, figcaption, figure, footer, hgroup, nav, section {display:block;}
+audio, header, canvas, video {display:inline-block;}
+body {text-rendering:optimizeLegibility;}
+html, fieldset, img, abbr {border:0;}
+img {vertical-align:middle;}
+input, textarea, select, button {font-size:1em; font-family:inherit;}
+input[type="text"] {-webkit-appearance:none; border-radius:0;}
+button, input[type="button"], input[type="reset"], input[type="submit"], label[for] {cursor:pointer;}
+sup, sub {position:relative; top:-.4em; vertical-align:baseline;}
+sub {top:.3em;}
+table {border-collapse:collapse; border-spacing:0;}
+th {text-align:left;}
+code {white-space:pre;}
+abbr[title] {cursor:help;}
+ins {text-decoration:none;}
+q:before, q:after {content:"";}
+a:hover, a:focus, a:active {outline:0;}
+/***** CLEARFIX *****/
+.cf:before, .cf:after {content:""; display:table;}
+.cf:after {clear:both;}
+
+/*
+selector {
+                    ---LAYOUT---
+    visibility
+    display
+    position
+    top
+    right
+    bottom
+    left
+    float
+    clear
+    z-index
+                    ---STRUCTURE---
+    width
+    min-width
+    max-width
+    height
+    min-height
+    max-height
+    resize
+    padding (t,r,b,l)
+    border (t,r,b,l)
+        -width (t,r,b,l)
+        -style (t,r,b,l)
+        -color (t,r,b,l)
+        -collapse
+        -radius
+        -image (t,r,b,l)
+        -corner-image (tl,tr,br,bl)
+    margin (t,r,b,l)
+    outline
+        -color
+        -style
+        -width
+    box-shadow
+    overflow
+    background
+        -color
+        -image
+        -repeat
+        -position
+        -attachment
+    opacity
+                    ---PARAGRAPH---
+    direction
+    text-align
+    text-indent
+    vertical-align
+    list-style
+        -type
+        -position
+        -image
+    white-space
+                    ---CHARACTER---
+    color
+    font
+        -style
+        -variant
+        -weight
+        -size
+        -family
+    line-height
+    letter-spacing
+    word-spacing
+    text-transform
+    text-decoration
+    text-shadow
+                    ---MISC---
+    content
+    cursor
+    pointer-events
+    transition
+}
+*/
+
+.default-hidden {
+    display:none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    height: 50rem;
+
+}
+
+.btn-cta {
+    color: white;
+  text-shadow: 2px 2px #000;
+    width: auto;   
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 60px;
+
+}
+
+.header-container{
+    width: 100%;
+    height: 80px;
+    background: white;
+    z-index:9;
+    top: 0;
+    color: black;
+    position: fixed;
+    
+}
+    .menu-wrapper {
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+        .nav-logo {
+            float: left;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+.hamburger-items {
+    position: relative;
+    float: right;
+    top: 30px;
+    width: 35px;
+    height: 20px;
+    cursor: pointer;
+}
+    .hamburger-items span {
+        position: absolute;
+        top: 8px;
+        width: 100%;
+        border-top: 3px solid black;
+        transition: all .3s ease-in-out;
+    }
+        .hamburger-items span:first-child {
+            width: 50%;
+            top: 0;
+        }
+
+        .hamburger-items span:nth-child(2) {
+            width: 75%;
+        }
+
+        .hamburger-items span:last-child {
+            top: 16px;
+        }
+
+                .hamburger-items:hover span {
+                    width: 100%;
+                }
+
+/*Slide Down Menu*/
+
+.menu-slidedown {
+    width: 100%;
+    height: 1800px;
+    background: white;
+    text-align: center;
+    top:6%;bottom:0;left:0;right:0;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu-container {
+    color: black;
+    position:absolute;
+    top: 10%;
+    left:0;right:0;
+}
+
+.menu-container ul {
+    width: 500px;
+    margin: 0 auto;
+}
+
+    .menu-container ul li {
+        color: black;
+        list-style: none;
+        font-size: 1em;
+        line-height: 2;
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+        .menu-container ul li:hover {
+            font-style: italic;
+            color: dimgrey;
+        }
+            .menu-container ul li a {
+                text-decoration: none;
+            }
+                .menu-container ul li a:visited {
+                    text-decoration: none;
+                    color: black;
+                }
+
+
+.close-btn {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 300px;
+    cursor: pointer;
+}
+.close-btn:hover {
+    font-style: italic;
+    color: dimgrey;
+}
+
+
+.body-container {
+    z-index: 11;
+}
+
+
+
+/*HERO */
+.hero-wrapper {
+        height: 70vh;
+    }
+        .hero-wrapper h2 {
+            position: absolute;
+            text-align: center;
+            top: 20%;
+            left:0;
+            right: 0;
+        }
+.hero-wrapper #btnReel {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+} 
+
+
+
+
+/*VIDEO*/
+.first-section {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding-top: 80px;
+    -webkit-transform: translateZ(0); /*this forces the GPU to render it*/
+}
+.video-container {
+    min-width: 100%;
+    -webkit-transform: translateZ(0); /*this forces the GPU to render it*/
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right:0;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.video-container video {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+#video {
+  position: absolute;
+    width: 100%;
+}
+
+
+
+/*About*/
+
+
+/*General Sections Stuff*/
+
+
+.text-section {
+    max-width: 70%;
+    height: auto;
+    margin: 5% auto;
+}
+
+    .text-section p {
+        line-height: 1.5;
+    }
+
+.large-image img {
+    max-width: 1040px;
+    margin: 30px auto;
+    display: block;
+}
+
+.image-caption {
+    margin-bottom: 20px;
+}
+
+.image-caption h4 {
+    text-align: center;
+}
+
+
+.divider {
+    width: 100%;
+    height: auto;
+    background: white;
+    position: relative;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 25px auto;
+}
+
+.divider h2 {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+    position: relative;
+    
+}
+.footer-container {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+    .footer-container p {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+/*ABOUT PAGE*/
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    background-color: black;
+    }  
+
+
+
