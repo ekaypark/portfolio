@@ -118,8 +118,6 @@ body {
 }
 
 .btn-cta {
-    color: white;
-  text-shadow: 2px 2px #000;
     width: auto;   
     text-align: center;
     padding: 10px;
@@ -245,23 +243,39 @@ body {
 
 
 /*HERO */
-.hero-wrapper {
-        height: 70vh;
-    }
-        .hero-wrapper h2 {
-            position: absolute;
-            text-align: center;
-            top: 20%;
-            left:0;
-            right: 0;
-        }
-.hero-wrapper #btnReel {
+
+.hero-wrapper #titleA {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 0;
     right: 0;
     margin: 0 auto;
+    width: 150px;
+    height: 80px;
+    font-size: 4rem;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(-33deg);
+    color: #ff009d;
+    z-index: 1;
+    font-weight: 800;
 } 
+
+.hero-wrapper #titleB {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-33deg) skew(-33deg);
+
+}
+
+
 
 
 
@@ -465,3 +479,19 @@ a {
     }
 
 }
+
+div.a {
+  width: 150px;
+  height: 80px;
+  font-size: 4rem;
+  -ms-transform: skewY(20deg); /* IE 9 */
+  -webkit-transform: skewY(20deg); /* Safari 3-8 */
+  transform: skewY(20deg);
+}
+
+
+
+
+
+
+
