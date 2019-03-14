@@ -244,15 +244,15 @@ body {
 
 /*HERO */
 
-.hero-wrapper #titleA {
+.hero-wrapper #titleA1 {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 150px;
+    width: auto;
     height: 80px;
-    font-size: 4rem;
+    font-size: 5rem;
     -ms-transform: skewY(20deg); /* IE 9 */
     -webkit-transform: skewY(20deg); /* Safari 3-8 */
     transform: skewY(-33deg);
@@ -260,11 +260,145 @@ body {
     z-index: 1;
     font-weight: 800;
 } 
-
-.hero-wrapper #titleB {
+.hero-wrapper #titleA2 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+    font-size: 5rem;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(-33deg);
+    color: #37e37a;
+    z-index: 1;
+    font-weight: 800;
+} 
+.hero-wrapper #titleA3 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+    font-size: 5rem;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(-33deg);
+    color: #00d4ff;
+    z-index: 1;
+    font-weight: 800;
+} 
+.hero-wrapper #titleA4 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+    font-size: 5rem;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(-33deg);
+    color: #ff009d;
+    z-index: 1;
+    font-weight: 800;
+} 
+.hero-wrapper #titleA5 {
     position: absolute;
     top: 50%;
     left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+    font-size: 5rem;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(-33deg);
+    color: #37e37a;
+    z-index: 1;
+    font-weight: 800;
+} 
+.hero-wrapper #titleA6 {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+    font-size: 5rem;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(-33deg);
+    color: #00d4ff;
+    z-index: 1;
+    font-weight: 800;
+} 
+.hero-wrapper #titleB1 {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-33deg) skew(-33deg);
+
+}
+.hero-wrapper #titleB2 {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-33deg) skew(-33deg);
+
+}
+
+.hero-wrapper #titleB3 {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-33deg) skew(-33deg);
+
+}
+
+.hero-wrapper #titleB4 {
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-33deg) skew(-33deg);
+
+}
+
+.hero-wrapper #titleB5 {
+    position: absolute;
+    top: 80%;
+    right: 50%;
     margin: 0 auto;
     width: 150px;
     height: auto;
