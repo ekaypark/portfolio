@@ -10,10 +10,14 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/appicon-iphone4.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/appicon-ipad.png" />
 	<link rel="apple-touch-icon-precomposed" href="img/icons/appicon-iphone.png" />
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <!-- <link rel="stylesheet" href="css/style2.css" /> -->
-	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
@@ -23,8 +27,25 @@
 
 <!-- Hero -->
   <section class="et-hero-tabs">
-    <h1>STICKY SLIDER NAV</h1>
-    <h3>Sliding content with sticky tab nav</h3>
+     <div class="container-fluid video-container" style="padding: 0; margin:0;">
+      <div class="row" style="padding: 0; margin:0;">
+      <div class="col-md-2" style="padding: 0; margin:0;">
+        <video id="video" preload="auto" autoplay muted loop>
+                <source src="placeholder.mp4" type="video/mp4">
+            </video>
+      </div>
+      <div class="col-md-7" style="padding: 0; margin:0;">
+        <video id="video" preload="auto" autoplay muted loop>
+                <source src="placeholder.mp4" type="video/mp4">
+            </video>
+      </div>
+      <div class="col-md-3" style="padding: 0; margin:0;">
+        <video id="video" preload="auto" autoplay muted loop>
+                <source src="placeholder1.mp4" type="video/mp4">
+            </video></div>
+      </div>
+
+    </div>
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-es6">Career</a>
       <a class="et-hero-tab" href="#tab-flexbox">Bio</a>
@@ -76,43 +97,8 @@
 	</header> -->
     
 <!--SLIDEDOWN MENU MODULE-->
-    
-<div class="menu-slidedown default-hidden" id="menuShow">
-    <div class="menu-container">
-        <ul class="item-list">
-            <li><a href="about.html" target="_blank"> ABOUT</a></li>
-            <li> PHOTOGRAPHY</li>
-            <li> VIDEO</li>
-            <li> RESUME</li>
-            <li> CONTACT</li>
-        </ul>
-        <div class="close-btn">
-                CLOSE
-        </div>
-    </div>
-    
-    </div>
-    
-    
-    
-<!--SECTION1-->
-    <div class="first-section">
-<!--    video-->
-        <div class="video-container" id="videoContainer">
-            <video id="video" preload="auto" autoplay muted loop>
-                <source src="placeholdervideo.mp4" type="video/mp4">
-            </video>
-        </div>
-<!--    btn    -->
-        <div class="hero-wrapper">
-            <div class="btn-cta" id="btnReel">YOUR PORTFOLIO</div>
-        </div>
-    </div>
-<!--SECTION2--> 
 
-
-<!--SECTION4    -->
-
+  
 
    <div class="divider">
             <h2>About You</h2>
